@@ -1,0 +1,136 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  body{
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .colored-text{
+    color: orange;
+  }
+  
+   #firstlook{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+  }
+  
+  .half-width{
+    width: 40%;
+  }
+  
+  .half-width img{
+    width: 500px;;
+    height: 600px;
+    padding-left: 10px;
+    
+  }
+  
+  .half-width .less-width{
+    width: 60%;
+  }
+  
+  
+  .half-width h1{
+    padding-left: 50px;
+    margin-top: 50px;
+  }
+  
+  .half-width p{
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .button{
+    margin-left: 50px;
+    text-decoration: none;
+    padding: 10px 30px;
+    background-image: linear-gradient(orange,red);
+    border-radius: 20px;
+    color: whitesmoke;
+    box-shadow: 2px 2px 5px rgb(98, 96, 98);
+  }
+  
+  .button:hover{
+    background-image: linear-gradient(rgb(146, 141, 146),rgb(221, 226, 226));
+    color: black;
+    box-shadow: 5px 5px 30px rgb(162, 168, 162);
+  }
+  
+  #about{
+    display: flex;
+    justify-content: space-evenly;
+    background: url(/images/7.png) center top;
+    margin-bottom: 100px;
+  }
+  
+  .recipe-info{
+   width: 50%;
+   margin: 25px auto;
+   text-align: center;
+   color:rgba(17, 15, 15, 0.274)
+   
+  }
+  
+  #recipes .container{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  #recipes .container .box{
+    width: 25%;
+    box-shadow: 7px 7px 40px gray;
+    border-radius: 20px;
+    padding-bottom: 50px;
+    margin-bottom: 100px;
+  }
+  
+  #recipes .container .box .img img{
+    width: 80%;
+    display: block;
+    margin: 20px auto;
+    border-radius: 20px;
+  }
+  
+  #recipes .container .box h1 , 
+  #recipes .container .box p{
+    padding-left: 30px;
+  }
+  
+
+  
+  #social .container{
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 15px;
+  }
+  
+  
+  #social .box{
+    width: 25%;
+    padding: 50px;
+  }
+  
+  footer h2{
+    text-align: center;
+    padding: 10px;
+    color: gray;
+  }
+  
+  footer p{
+    text-align: center;
+    padding: 15px;
+    color: whitesmoke;
+  }
+  
+  footer{
+    background: black;
+  }
+  
+  
