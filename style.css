@@ -103,7 +103,7 @@
   #about{
     display: flex;
     justify-content: space-evenly;
-    background: url(/images/7.png) center top;
+    background: url(images/7.png) center top;
     margin-bottom: 100px;
   }
   
